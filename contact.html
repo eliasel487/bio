@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Contact — Les Bio Givrés
+		</title>
+		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="contact.css">
+	</head>
+	<body>
+		<header>
+			<nav class="container">
+				<a class="brand" href="index.html">
+					<img src="assets/logo.png" alt="Logo Les Bio Givrés">
+					<span>Les Bio Givrés<small>GLACES FERMIÈRES BIO</small></span>
+				</a>
+				<div class="nav-links">
+					<a href="index.html">
+						Accueil
+					</a>
+					<a href="produits.html">
+						Nos produits
+					</a>
+					<a href="apropos.html">
+						Notre histoire
+					</a>
+					<a class="active" href="contact.html">
+						Nous trouver
+					</a>
+					<a class="nav-cta" href="#contact-form">
+						Nous contacter
+					</a>
+				</div>
+				<button class="menu" aria-label="Ouvrir le menu">☰</button>
+			</nav>
+		</header>
+		<main>
+			<section class="page-hero">
+				<div class="container">
+					<div class="eyebrow">
+						Nous rendre visite
+					</div>
+					<h1>
+						On se retrouve à la terrasse ou à la ferme?
+					</h1>
+					<p>
+						Pour une commande, une question ou simplement l’envie de goûter nos glaces, contactez-nous.
+					</p>
+				</div>
+			</section>
+			<section class="terrace section">
+				<div class="container">
+					<div class="terrace-heading">
+						<h2>La terrasse</h2>
+						<div class="opening-hours">
+							<span>Ouvert tous les jours</span>
+							<strong>10h00 – 22h00</strong>
+						</div>
+					</div>
+					<div class="terrace-gallery">
+						<img src="assets/terrassebio.png" alt="Terrasse des Bio Givrés">
+						<img src="assets/bar.jpeg" alt="Espace de dégustation des Bio Givrés">
+						<img src="assets/interieur-1.jpeg" alt="Intérieur des Bio Givrés">
+						<img src="assets/interiur-2.jpeg" alt="Intérieur de la ferme Les Bio Givrés">
+						<img src="assets/exterieur.jpg" alt="Extérieur des Bio Givrés">
+					</div>
+					<div class="terrace-gallery__controls">
+						<button class="gallery-button" type="button" data-gallery-direction="previous" aria-label="Photo précédente">←</button>
+						<button class="gallery-button" type="button" data-gallery-direction="next" aria-label="Photo suivante">→</button>
+					</div>
+					<dialog class="gallery-lightbox" aria-label="Agrandissement de la photo">
+						<button class="gallery-lightbox__close" type="button" aria-label="Fermer la photo">×</button>
+						<img src="" alt="">
+					</dialog>
+					<p class="terrace-menu">
+						À la terrasse, on ne s’arrête pas aux glaces : vous trouverez aussi des sorbets artisanaux, des gaufres liégeoises, classiques ou bubble waffles, des crêpes, des galettes salées, du café, des vins, des bières et des cocktails. Tout ça en bio.
+					</p>
+					<a class="button terrace-button" href="https://maps.app.goo.gl/X3MWAoEb65zG1GX48" target="_blank" rel="noopener">
+						Y aller ↗
+					</a>
+				</div>
+			</section>
+			<section class="workshop section">
+				<div class="container workshop-grid">
+					<div class="workshop-copy">
+						<div class="eyebrow eyebrow--green">
+							<h2>L’atelier</h2>
+						</div>
+						<h2>
+							Vente directe à l’atelier.
+						</h2>
+						<p>
+							Retrouvez-nous à Coulombs pour acheter nos glaces, sorbets, yaourts et entremets directement à la ferme.
+						</p>
+						<div class="opening-hours opening-hours--light">
+							<span>Du lundi au samedi</span>
+							<strong>16h00 – 18h00</strong>
+						</div>
+						<a class="button" href="https://maps.app.goo.gl/4f7uXhcoKoK97CV27" target="_blank" rel="noopener">
+							Itinéraire vers l’atelier ↗
+						</a>
+					</div>
+					<div class="workshop-map">
+						<iframe title="Localisation de l’atelier Les Bio Givrés" src="https://www.google.com/maps?q=44.849659302926774%2C3.8965631820286846&amp;output=embed" loading="lazy"></iframe>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container contact-grid">
+					<div>
+						<div class="eyebrow eyebrow--green">
+							Coordonnées
+						</div>
+						<h2>
+							À Coulombs
+						</h2>
+						<div class="details">
+							<p>
+								<b>GAEC Les Bio Givrés</b><br>Coulombs<br>43490 Arlempdes
+							</p>
+							<p>
+								Du lundi au samedi<br><b>16h00 – 18h00</b>
+							</p>
+							<p>
+								<a href="tel:+33625550049">
+									06 25 55 00 49
+								</a>
+								<br>
+								<a href="mailto:nicolas.brenas43@orange.fr">
+									nicolas.brenas43@orange.fr
+								</a>
+							</p>
+						</div>
+						<div class="map-note">
+							<p>
+								<b>Vente directe à l’atelier</b><br>Paiement en espèces, par chèque ou carte bancaire.
+							</p>
+						</div>
+					</div>
+					<form class="form" id="contact-form" action="https://formsubmit.co/elias487xd@gmail.com" method="POST">
+						<input type="hidden" name="_subject" value="Nouveau message depuis Les Bio Givrés">
+						<input type="hidden" name="_template" value="table">
+						<div class="eyebrow eyebrow--green">
+							Écrivez-nous
+						</div>
+						<h2>
+							Un petit mot ?
+						</h2>
+						<div class="field-row">
+							<input type="text" name="nom" required placeholder="Votre nom">
+							<input type="email" name="email" required placeholder="Votre e-mail">
+						</div>
+						<textarea name="message" required placeholder="Votre message">
+						</textarea>
+						<button class="button" type="submit">
+							Envoyer le message
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-main">
+					<div>
+						<a class="logo" href="index.html">
+							<img src="assets/logo.png" alt="Logo Les Bio Givrés">
+							<span>Les Bio Givrés<small>GLACES FERMIÈRES BIO</small></span>
+						</a>
+						<p>
+							Glaces fermière bio · Arlempdes
+						</p>
+					</div>
+					<p>
+						Coulombs · 43490 Arlempdes<br>06 25 55 00 49
+					</p>
+				</div>
+				<div class="legal">
+					<span>© 2026 Les Bio Givrés</span><span>Tous droits réservés</span>
+				</div>
+			</div>
+		</footer>
+		<script src="navigation.js"></script>
+		<script src="gallery.js"></script>
+	</body>
+</html>
