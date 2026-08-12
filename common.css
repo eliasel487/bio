@@ -201,6 +201,14 @@ nav {
 	background: #f4d98e;
 	content: '';
 	opacity: 0.85;
+	/* ensure decorative circle sits behind page content */
+	z-index: 0;
+}
+
+/* Ensure page-hero content stacks above the decorative circle */
+.page-hero > .container {
+	position: relative;
+	z-index: 1;
 }
 .eyebrow {
 	color: var(--butter);

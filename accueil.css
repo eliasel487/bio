@@ -538,6 +538,27 @@ footer {
 	.menu {
 		display: block;
 	}
+
+	/* Masquer la photo principale et le macaron sur mobile */
+	.hero-image .main-photo,
+	.bio-badge {
+		display: none;
+	}
+
+	/* Masquer le cercle jaune sur mobile */
+	.sun {
+		display: none;
+	}
+
+	/* Réafficher le petit logo de la nav sur mobile */
+	.brand img {
+		display: inline-block;
+		width: 48px;
+		height: 48px;
+		object-fit: contain;
+		border-radius: 50%;
+		background: #fff;
+	}
 	.hero {
 		padding-top: 45px;
 	}
