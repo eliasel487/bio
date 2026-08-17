@@ -1,4 +1,3 @@
-/* Styles propres à la page d'accueil. */
 :root {
 	--ink: #18362f;
 	--green: #2e6b59;
@@ -525,6 +524,14 @@ footer {
 	}
 }
 @media (max-width:800px) {
+	/*.reveal-section {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  	}*/
+	.hero {
+    min-height: auto;
+  	}
 	.container {
 		width: min(100% - 34px,680px);
 	}
@@ -540,17 +547,10 @@ footer {
 	}
 
 	/* Masquer la photo principale et le macaron sur mobile */
-	.hero-image .main-photo,
-	.bio-badge {
-		display: none;
-	}
+	.hero-image {
+    display: none;
+  }
 
-	/* Masquer le cercle jaune sur mobile */
-	.sun {
-		display: none;
-	}
-
-	/* Réafficher le petit logo de la nav sur mobile */
 	.brand img {
 		display: inline-block;
 		width: 48px;
