@@ -524,13 +524,13 @@ footer {
 	}
 }
 @media (max-width:800px) {
-	/*.reveal-section {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
-  	}*/
+	.reveal-section {
+    		opacity: 1 !important;
+    		transform: none !important;
+    		transition: none !important;
+  	}
 	.hero {
-    min-height: auto;
+    		min-height: auto;
   	}
 	.container {
 		width: min(100% - 34px,680px);
